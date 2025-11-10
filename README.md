@@ -43,7 +43,7 @@ nvim/
 
 ```powershell
 # Clone this repository
-git clone github.com/corpeningc/kickstart.nvim "$env:LOCALAPPDATA\nvim"
+git clone github.com/dylancdavis/nvim-config "$env:LOCALAPPDATA\nvim"
 
 # Start Neovim (plugins will auto-install)
 nvim
