@@ -79,3 +79,4 @@ Configured LSP servers:
 ## Credits
 
 Built upon [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) - A fantastic starting point for Neovim configurations.
+Copied from `corpeningc`'s own [kickstart config](https://github.com/corpeningc/kickstart.nvim).
