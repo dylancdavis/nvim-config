@@ -53,7 +53,7 @@ nvim
 
 ```bash
 # Clone this repository
-git clone github.com/corpeningc/kickstart.nvim ~/.config/nvim
+git clone github.com/dylancdavis/nvim.config ~/.config/nvim
 
 # Start Neovim (plugins will auto-install)
 nvim
