@@ -43,7 +43,7 @@ nvim/
 
 ```powershell
 # Clone this repository
-git clone github.com/dylancdavis/nvim-config "$env:LOCALAPPDATA\nvim"
+git clone git@github.com:dylancdavis/nvim-config.git "$env:LOCALAPPDATA\nvim"
 
 # Start Neovim (plugins will auto-install)
 nvim
@@ -53,7 +53,7 @@ nvim
 
 ```bash
 # Clone this repository
-git clone github.com/dylancdavis/nvim.config ~/.config/nvim
+git clone git@github.com:dylancdavis/nvim-config.git ~/.config/nvim
 
 # Start Neovim (plugins will auto-install)
 nvim
