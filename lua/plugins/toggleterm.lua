@@ -6,7 +6,7 @@ return {
       -- Detect OS and set appropriate shell
       local shell = vim.o.shell -- Use system default
       if vim.fn.has 'win32' == 1 or vim.fn.has 'win64' == 1 then
-        shell = 'powershell'
+        shell = 'pwsh'
       end
 
       require('toggleterm').setup {

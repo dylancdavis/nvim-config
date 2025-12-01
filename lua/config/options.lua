@@ -88,9 +88,9 @@ vim.o.confirm = true
 
 -- [[ Shell setup - Conditional based on OS ]]
 if vim.fn.has 'win32' == 1 or vim.fn.has 'win64' == 1 then
-  -- Windows: Use PowerShell
+  -- Windows: Use PowerShell 7
   local powershell_options = {
-    shell = 'powershell',
+    shell = 'pwsh',
     shellcmdflag = '-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;',
     shellredir = '-RedirectStandardOutput %s -NoNewWindow -Wait',
     shellpipe = '2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode',
